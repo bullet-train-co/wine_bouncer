@@ -73,6 +73,7 @@ env:
     - rails="~> 6.0.2" grape=1.3.0 doorkeeper=5.1.0
     - rails="~> 6.0.2" grape=1.3.0 doorkeeper=5.2.3
     - rails="~> 6.1.1" grape=1.5.1 doorkeeper=5.4.0
+    - rails="~> 6.1.1" grape=1.5.3 doorkeeper=5.5.1
 
 jobs:
   exclude:
@@ -110,6 +111,8 @@ jobs:
       env: rails="~> 6.0.2" grape=1.3.0 doorkeeper=5.2.3
     - rvm: 2.4.5
       env: rails="~> 6.1.1" grape=1.5.1 doorkeeper=5.4.0
+    - rvm: 2.4.5
+      env: rails="~> 6.1.1" grape=1.5.3 doorkeeper=5.5.1
 
 
 script:
